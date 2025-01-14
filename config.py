@@ -8,7 +8,7 @@ class Config:
     BOT_SESSION = environ.get("BOT_SESSION", "Forward-Bot") 
     DATABASE_URI = environ.get("DATABASE", "")
     DATABASE_NAME = environ.get("DATABASE_NAME", "cluster0")
-    BOT_OWNER_ID = [int(id) for id in environ.get("BOT_OWNER_ID", 'itzz_introvert').split()]
+    BOT_OWNER_ID = [int(id) for id in environ.get("BOT_OWNER_ID", '5983189506').split()]
     LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002037384930'))
     FORCE_SUB_CHANNEL = environ.get("FORCE_SUB_CHANNEL", "-1002107651096") 
     FORCE_SUB_ON = environ.get("FORCE_SUB_ON", "True")
